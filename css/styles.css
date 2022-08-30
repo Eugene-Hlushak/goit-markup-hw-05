@@ -48,8 +48,7 @@ h1,
 h2,
 h3,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .section {
@@ -300,6 +299,28 @@ p {
   column-gap: 30px;
 }
 
+.picture-thumb {
+  position: relative;
+}
+
+.work-label {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.work-label-text {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
 /* ===== TEAM ===== */
 
 .team {
