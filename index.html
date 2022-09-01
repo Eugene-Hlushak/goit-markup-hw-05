@@ -62,7 +62,7 @@
       <section class="hero section">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-button" type="button">Замовити послугу</button>
+          <button class="btn-order-service" data-modal-open>Замовити послугу</button>
         </div>
       </section>
 
@@ -133,11 +133,11 @@
                   class="picture"
                   src="./images/work/imga.jpg"
                   alt="Розробка сайтів"
-                  width="370px"
-                  height="294px"
+                  width="370"
+                  height="294"
                 />
 
-                <div class="work-label"><h2 class="work-label-text">Десктопні додатки</h2></div>
+                <h2 class="work-label-text">Десктопні додатки</h2>
               </div>
             </li>
             <li class="work-list-item">
@@ -146,10 +146,10 @@
                   class="picture"
                   src="./images/work/imgb.jpg"
                   alt="Створення мобільних версій сайтів"
-                  width="370px"
-                  height="294px"
+                  width="370"
+                  height="294"
                 />
-                <div class="work-label"><h2 class="work-label-text">Мобільні додатки</h2></div>
+                <h2 class="work-label-text">Мобільні додатки</h2>
               </div>
             </li>
             <li class="work-list-item">
@@ -158,10 +158,10 @@
                   class="picture"
                   src="./images/work/imgc.jpg"
                   alt="Розробка дизайну"
-                  width="370px"
-                  height="294px"
+                  width="370"
+                  height="294"
                 />
-                <div class="work-label"><h2 class="work-label-text">Дизайнерські рішення</h2></div>
+                <h2 class="work-label-text">Дизайнерські рішення</h2>
               </div>
             </li>
           </ul>
@@ -179,8 +179,8 @@
                 class="picture"
                 src="./images/our-team/ihor.jpg"
                 alt="Ігор Дем'яненко"
-                width="270px"
-                height="260px"
+                width="270"
+                height="260"
               />
               <div class="card-description">
                 <h3 class="team-title">Ігор Дем'яненко</h3>
@@ -223,8 +223,8 @@
                 class="picture"
                 src="./images/our-team/olga.jpg"
                 alt="Ольга Рєпіна"
-                width="270px"
-                height="260px"
+                width="270"
+                height="260"
               />
               <div class="card-description">
                 <h3 class="team-title">Ольга Рєпіна</h3>
@@ -267,8 +267,8 @@
                 class="picture"
                 src="./images/our-team/mykola.jpg"
                 alt="Микола Тарасов"
-                width="270px"
-                height="260px"
+                width="270"
+                height="260"
               />
               <div class="card-description">
                 <h3 class="team-title">Микола Тарасов</h3>
@@ -311,8 +311,8 @@
                 class="picture"
                 src="./images/our-team/mykhailo.jpg"
                 alt="Михайло Єрмаков"
-                width="270px"
-                height="260px"
+                width="270"
+                height="260"
               />
               <div class="card-description">
                 <h3 class="team-title">Михайло Єрмаков</h3>
@@ -405,6 +405,18 @@
           </ul>
         </div>
       </section>
+
+      <!-- Модальне вікно -->
+
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="btn-close-modal" data-modal-close>
+            <svg class="close-icon" width="18px" height="18px">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
     </main>
 
     <!-- Футер -->
@@ -471,5 +483,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- "Замовити послугу" -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
