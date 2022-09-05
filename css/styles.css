@@ -537,6 +537,10 @@ p {
   background-color: var(--accent-color);
 }
 
+.join .social-icon {
+  fill: #ffffff;
+}
+
 /* ===== PORTFOLIO ===== */
 
 .filters-list {
